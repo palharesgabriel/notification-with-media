@@ -14,6 +14,7 @@
 		ABC9D866216B894600704F88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC9D864216B894600704F88 /* LaunchScreen.storyboard */; };
 		ABC9D871216B894600704F88 /* notification_with_mediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC9D870216B894600704F88 /* notification_with_mediaTests.swift */; };
 		ABC9D87C216B894600704F88 /* notification_with_mediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC9D87B216B894600704F88 /* notification_with_mediaUITests.swift */; };
+		ABC9D88A216B911100704F88 /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC9D889216B911100704F88 /* NotificationHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		ABC9D877216B894600704F88 /* notification-with-mediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "notification-with-mediaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC9D87B216B894600704F88 /* notification_with_mediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notification_with_mediaUITests.swift; sourceTree = "<group>"; };
 		ABC9D87D216B894600704F88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC9D889216B911100704F88 /* NotificationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				ABC9D862216B894600704F88 /* Assets.xcassets */,
 				ABC9D864216B894600704F88 /* LaunchScreen.storyboard */,
 				ABC9D867216B894600704F88 /* Info.plist */,
+				ABC9D889216B911100704F88 /* NotificationHandler.swift */,
 			);
 			path = "notification-with-media";
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABC9D85E216B894500704F88 /* ViewController.swift in Sources */,
+				ABC9D88A216B911100704F88 /* NotificationHandler.swift in Sources */,
 				ABC9D85C216B894500704F88 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
