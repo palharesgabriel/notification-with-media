@@ -12,7 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let request = NotificationHandler.shared.createNotification()
+        NotificationHandler.shared.registerNotification(request)
+        
     }
 
 
